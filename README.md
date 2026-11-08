@@ -1,6 +1,8 @@
 # MG5
 ## Devlog
-Put your Devlog here.
+1. Its more advantageous to use NavMesh for a more complicated terrain while script can be used script for character movement for simpler terrain. A game that would probably use NavMesh would be the game Getting Over It, since the character is going through complicated terrain and a game that would use a script would probably be Animal Jam.
+2. The loop sets from 0 to bird.length, it calculates the distance between bird and player but once its at a certain length from the player, the bird will run away. The Vector3 calls to check distance from the player to the bird; if distance is = to i, the bird will run away. All the birds that you put in bird managers inspector area will have this same affect.
+
 
 ## Open-Source Assets
 - [Quirky animal 3D models](https://assetstore.unity.com/packages/3d/characters/animals/quirky-series-free-animals-pack-178235)
